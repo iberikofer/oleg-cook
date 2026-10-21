@@ -1,0 +1,153 @@
+{
+  "currency": "UAH",
+  "products": [
+    {
+      "id": "tea-cranberry-orange",
+      "line": "tea",
+      "name": "Журавлина-апельсин з пряностями",
+      "img": "/assets/tea-cranberry-orange.webp",
+      "pos": "50% 95%",
+      "note": "Журавлина, апельсин і пряні нотки.",
+      "sizes": [
+        { "key": "0.5", "volume": "0,5 л", "price": 250 },
+        { "key": "1", "volume": "1 л", "price": 450 }
+      ]
+    },
+    {
+      "id": "tea-sea-buckthorn",
+      "line": "tea",
+      "name": "Обліпиха-мандарин",
+      "img": "/assets/tea-sea-buckthorn.webp",
+      "pos": "50% 95%",
+      "note": "Обліпиха з мандарином.",
+      "sizes": [
+        { "key": "0.5", "volume": "0,5 л", "price": 250 },
+        { "key": "1", "volume": "1 л", "price": 450 }
+      ]
+    },
+    {
+      "id": "tea-ginger-citrus",
+      "line": "tea",
+      "name": "Імбир з цитрусом",
+      "img": "/assets/tea-ginger-citrus.webp",
+      "pos": "50% 95%",
+      "note": "Імбир, лимон і апельсин.",
+      "sizes": [
+        { "key": "0.5", "volume": "0,5 л", "price": 250 },
+        { "key": "1", "volume": "1 л", "price": 450 }
+      ]
+    },
+    {
+      "id": "tea-raspberry-grapefruit",
+      "line": "tea",
+      "name": "Малина-грейпфрут з розмарином",
+      "img": "/assets/tea-raspberry-grapefruit.webp",
+      "pos": "50% 95%",
+      "note": "Малина, грейпфрут і розмарин.",
+      "sizes": [
+        { "key": "0.5", "volume": "0,5 л", "price": 250 },
+        { "key": "1", "volume": "1 л", "price": 450 }
+      ]
+    },
+    {
+      "id": "tea-mango-vanilla",
+      "line": "tea",
+      "name": "Ванільний манго",
+      "img": "/assets/tea-mango-vanilla.webp",
+      "pos": "50% 95%",
+      "note": "Манго з ваніллю.",
+      "sizes": [
+        { "key": "0.5", "volume": "0,5 л", "price": 250 },
+        { "key": "1", "volume": "1 л", "price": 450 }
+      ]
+    },
+    {
+      "id": "tea-pear-apple-thyme",
+      "line": "tea",
+      "name": "Груша-яблуко і тім’ян",
+      "img": "/assets/tea-pear-apple-thyme.webp",
+      "pos": "50% 95%",
+      "note": "Груша, яблуко й тім’ян.",
+      "sizes": [
+        { "key": "0.5", "volume": "0,5 л", "price": 250 },
+        { "key": "1", "volume": "1 л", "price": 450 }
+      ]
+    },
+    {
+      "id": "tea-strawberry-mint",
+      "line": "tea",
+      "name": "Полуниця з м’ятою",
+      "img": "/assets/tea-strawberry-mint.webp",
+      "pos": "50% 95%",
+      "note": "Полуниця й м’ята.",
+      "sizes": [
+        { "key": "0.5", "volume": "0,5 л", "price": 250 },
+        { "key": "1", "volume": "1 л", "price": 450 }
+      ]
+    },
+
+    {
+      "id": "mix-mango-passion",
+      "line": "mix",
+      "name": "Манго-маракуя",
+      "img": "/assets/mango-passion-standalone.webp",
+      "pos": "50% 75%",
+      "note": "Тропічний, насичений, з виразною кислинкою маракуї.",
+      "sizes": [{ "key": "1", "volume": "1 л", "price": 395 }]
+    },
+    {
+      "id": "mix-strawberry",
+      "line": "mix",
+      "name": "Полуниця",
+      "img": "/assets/strawberry-standalone.webp",
+      "pos": "50% 75%",
+      "note": "Соковитий ягідний профіль для лимонадів і десертних напоїв.",
+      "sizes": [{ "key": "1", "volume": "1 л", "price": 305 }]
+    },
+    {
+      "id": "mix-pear-elder",
+      "line": "mix",
+      "name": "Груша-бузина",
+      "img": "/assets/pear-elder-standalone.webp",
+      "pos": "50% 75%",
+      "note": "М’яка груша з квітковою нотою бузини.",
+      "sizes": [{ "key": "1", "volume": "1 л", "price": 305 }]
+    },
+    {
+      "id": "mix-peach",
+      "line": "mix",
+      "name": "Персик",
+      "img": "/assets/peach-standalone.webp",
+      "pos": "50% 75%",
+      "note": "Стиглий округлий смак із делікатною фруктовою солодкістю.",
+      "sizes": [{ "key": "1", "volume": "1 л", "price": 305 }]
+    },
+    {
+      "id": "mix-raspberry",
+      "line": "mix",
+      "name": "Малина",
+      "img": "/assets/raspberry-standalone.webp",
+      "pos": "50% 75%",
+      "note": "Насичена ягідна база з живою природною кислинкою.",
+      "sizes": [{ "key": "1", "volume": "1 л", "price": 395 }]
+    },
+    {
+      "id": "mix-mango-orange-vanilla",
+      "line": "mix",
+      "name": "Манго-апельсин-ваніль",
+      "img": "/assets/mango-orange-vanilla-standalone.webp",
+      "pos": "50% 75%",
+      "note": "Тропічна основа, цитрусова свіжість і м’який ванільний фініш.",
+      "sizes": [{ "key": "1", "volume": "1 л", "price": 305 }]
+    },
+    {
+      "id": "mix-cherry",
+      "line": "mix",
+      "name": "Вишня",
+      "img": "/assets/cherry-standalone.webp",
+      "pos": "50% 75%",
+      "note": "Глибокий вишневий смак і виразний рубіновий колір.",
+      "sizes": [{ "key": "1", "volume": "1 л", "price": 355 }]
+    }
+  ]
+}
