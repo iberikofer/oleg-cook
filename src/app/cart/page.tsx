@@ -189,7 +189,7 @@ export default function KoshykPage() {
                 <input
                   type="tel"
                   required
-                  placeholder="068 000 00 00"
+                  placeholder="093 001 23 00"
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                 />

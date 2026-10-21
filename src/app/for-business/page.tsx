@@ -151,7 +151,7 @@ export default function DlyaZakladivPage() {
                 <input
                   type="tel"
                   required
-                  placeholder="067 000 00 00"
+                  placeholder="093 001 23 00"
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                 />
