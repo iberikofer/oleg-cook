@@ -30,38 +30,38 @@ export const Header: React.FC = () => {
           aria-label="Головне меню"
         >
           <Link
-            href="/chai"
+            href="/tea"
             onClick={closeMenu}
-            className={pathname === '/chai' ? 'active' : ''}
+            className={pathname === '/tea' ? 'active' : ''}
           >
             Чаї
           </Link>
           <Link
-            href="/miksy"
+            href="/mixes"
             onClick={closeMenu}
-            className={pathname === '/miksy' ? 'active' : ''}
+            className={pathname === '/mixes' ? 'active' : ''}
           >
             Мікси для лимонадів
           </Link>
           <Link
-            href="/dlya-zakladiv"
+            href="/for-business"
             onClick={closeMenu}
-            className={pathname === '/dlya-zakladiv' ? 'active' : ''}
+            className={pathname === '/for-business' ? 'active' : ''}
           >
             Для закладів
           </Link>
           <Link href="/#faq" onClick={closeMenu}>
             Доставка й оплата
           </Link>
-          <a className="nav-phone" href="tel:+380683056257">
-            068 305 62 57 · щодня 9:00–19:00
+          <a className="nav-phone" href="tel:+380930012300">
+            +380 93 001 23 00 · щодня 9:00–19:00
           </a>
         </nav>
 
         <a
           className="header-phone"
-          href="tel:+380683056257"
-          aria-label="Подзвонити 068 305 62 57"
+          href="tel:+380930012300"
+          aria-label="Подзвонити +380 93 001 23 00"
         >
           <svg
             width="18"
@@ -76,12 +76,12 @@ export const Header: React.FC = () => {
           >
             <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z" />
           </svg>
-          <span className="phone-text">068 305 62 57</span>
+          <span className="phone-text">+380 93 001 23 00</span>
         </a>
 
         <Link
           className="btn btn-green cart-btn"
-          href="/koshyk"
+          href="/cart"
           onClick={closeMenu}
           aria-label="Кошик"
         >

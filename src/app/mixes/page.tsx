@@ -194,7 +194,7 @@ export default function MiksyPage() {
             Oleg Cook tea, 7 смаків.
           </p>
           <Link
-            href="/chai"
+            href="/tea"
             className="btn btn-green self-start"
             style={{ marginTop: '8px' }}
           >
@@ -209,7 +209,7 @@ export default function MiksyPage() {
             меню.
           </span>
           <Link
-            href="/dlya-zakladiv"
+            href="/for-business"
             className="btn btn-accent self-start"
             style={{ marginTop: '8px' }}
           >

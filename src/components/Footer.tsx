@@ -13,15 +13,15 @@ export const Footer: React.FC = () => {
         </div>
 
         <nav className="stack" aria-label="Нижнє меню">
-          <Link href="/chai">Чаї</Link>
-          <Link href="/miksy">Мікси для лимонадів</Link>
-          <Link href="/dlya-zakladiv">Для закладів</Link>
+          <Link href="/tea">Чаї</Link>
+          <Link href="/mixes">Мікси для лимонадів</Link>
+          <Link href="/for-business">Для закладів</Link>
           <Link href="/#faq">Доставка й оплата</Link>
         </nav>
 
         <div className="stack">
-          <a href="tel:+380683056257">
-            <strong>068 305 62 57</strong>
+          <a href="tel:+380930012300">
+            <strong>+380 93 001 23 00</strong>
           </a>
           <a
             href="https://www.instagram.com/oleg_cook/"

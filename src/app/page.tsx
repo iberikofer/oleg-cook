@@ -40,7 +40,7 @@ export default function HomePage() {
                 <span className="meta">0,5 л — 250 грн · 1 л — 450 грн · 7 смаків</span>
                 <span className="hl">≈17–19 грн за чашку — у кав’ярні 80 грн</span>
               </div>
-              <Link className="btn btn-accent btn-lg self-start" href="/chai">
+              <Link className="btn btn-accent btn-lg self-start" href="/tea">
                 Обрати чай
               </Link>
             </div>
@@ -78,10 +78,10 @@ export default function HomePage() {
                 <strong>від 305 грн</strong>
                 <span className="meta">1 л · до 33 порцій · 7 смаків</span>
               </div>
-              <Link className="self-start" href="/miksy#kokteili">
+              <Link className="self-start" href="/mixes#kokteili">
                 <strong>Коктейльна карта: 5 рецептів →</strong>
               </Link>
-              <Link className="btn btn-green btn-lg self-start" href="/miksy">
+              <Link className="btn btn-green btn-lg self-start" href="/mixes">
                 Обрати мікс
               </Link>
             </div>
@@ -105,14 +105,14 @@ export default function HomePage() {
 
       {/* Two Directions / Fork */}
       <section className="container fork" aria-label="Два напрямки">
-        <Link href="/chai">
+        <Link href="/tea">
           <span className="eyebrow">Додому</span>
           <strong>Замовити на сайті</strong>
           <span>
             Роздрібні ціни. Доставка по Вінниці та Новою поштою по всій Україні.
           </span>
         </Link>
-        <Link href="/dlya-zakladiv">
+        <Link href="/for-business">
           <span className="eyebrow">Для закладів і опту</span>
           <strong>Індивідуальна пропозиція</strong>
           <span>
@@ -214,7 +214,7 @@ export default function HomePage() {
               роздрібні — залиште контакти, менеджер Oleg Cook зателефонує.
             </p>
           </div>
-          <Link className="btn btn-accent btn-lg" href="/dlya-zakladiv">
+          <Link className="btn btn-accent btn-lg" href="/for-business">
             Отримати пропозицію
           </Link>
         </div>
@@ -265,8 +265,7 @@ export default function HomePage() {
             <summary>Чи є гуртові ціни?</summary>
             <p>
               Так, для закладів і дистриб’юторів діє спеціальна гуртова пропозиція.
-              Залиште заявку на сторінці <Link href="/dlya-zakladiv">«Для закладів»</Link>
-              .
+              Залиште заявку на сторінці <Link href="/for-business">«Для закладів»</Link>.
             </p>
           </details>
         </div>

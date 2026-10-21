@@ -64,10 +64,10 @@ export default function KoshykPage() {
           Cook:
         </p>
         <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', marginTop: '8px' }}>
-          <Link href="/chai" className="btn btn-accent btn-lg">
+          <Link href="/tea" className="btn btn-accent btn-lg">
             До чаїв
           </Link>
-          <Link href="/miksy" className="btn btn-green btn-lg">
+          <Link href="/mixes" className="btn btn-green btn-lg">
             До міксів для лимонадів
           </Link>
         </div>

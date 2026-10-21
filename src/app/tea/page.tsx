@@ -109,7 +109,7 @@ export default function ChaiPage() {
             </p>
             <Link
               className="btn btn-green self-start"
-              href="/miksy"
+              href="/mixes"
               style={{ marginTop: '10px' }}
             >
               До міксів →
@@ -123,7 +123,7 @@ export default function ChaiPage() {
         className="container"
         style={{ paddingTop: '40px', paddingBottom: '56px' }}
       >
-        <Link className="band-link" href="/dlya-zakladiv">
+        <Link className="band-link" href="/for-business">
           <span>
             Потрібні чаї та мікси для кав’ярні, бару чи ресторану? Гуртові ціни для
             партнерів.

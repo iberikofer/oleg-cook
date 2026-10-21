@@ -14,7 +14,7 @@ export const Toast: React.FC = () => {
       <span>
         ✓ Додано: <strong>{lastAddedName}</strong>
       </span>
-      <Link href="/koshyk" className="toast-link">
+      <Link href="/cart" className="toast-link">
         До кошика →
       </Link>
     </div>

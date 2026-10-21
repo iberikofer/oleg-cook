@@ -28,15 +28,15 @@
    - Миттєве перемикання між лінійками чаю та холодних міксів.
    - Вибір об'єму пляшки (0,5 л / 1 л) із динамічним перерахунком цін.
    - Анімований фідбек при додаванні у кошик та спливаючий Toast.
-2. **Калькулятор собівартості порції лимонаду** (`/miksy`):
+2. **Калькулятор собівартості порції лимонаду** (`/mixes`):
    - Інтерактивний вибір дозування (30, 40, 50, 60 мл) та вартості пляшки.
    - Миттєвий прорахунок виходу порцій, собівартості однієї склянки (від 9,2 грн) та об'єму готового напою.
 3. **Коктейльна карта (5 авторських рецептур)**:
    - Детальні рецепти з точним дозуванням для барів та домашніх вечірок (_Mango Passion Spritz, Strawberry Mojito, Elderflower Pear Fizz, Peach Bellini, Cherry Bourbon Smash_).
-4. **B2B розділ для HoReCa** (`/dlya-zakladiv`):
+4. **B2B розділ для HoReCa** (`/for-business`):
    - Спеціальні формати співпраці для кав'ярень, барів, ресторанів і кейтерингу.
    - Форма замовлення гуртового прайсу та дегустаційних зразків.
-5. **Повноцінний кошик і оформлення замовлення** (`/koshyk`):
+5. **Повноцінний кошик і оформлення замовлення** (`/cart`):
    - Збереження стану кошика в `localStorage`.
    - Зміна кількості та видалення позицій.
    - Вибір доставки: кур'єром по Вінниці або відділення Нової пошти.
@@ -87,15 +87,15 @@ npm run format:check
    - Instant switching between hot teas and cold lemonade mixes.
    - Reactive volume selection (0.5L vs 1.0L) with live pricing updates.
    - Micro-animated cart feedback with bottom toast notifications.
-2. **Lemonade Serving Cost Calculator** (`/miksy`):
+2. **Lemonade Serving Cost Calculator** (`/mixes`):
    - Interactive selection of dosage (30, 40, 50, 60 ml) and bottle prices.
    - Real-time computation of servings count, portion cost (from 9.2 UAH), and drink volume.
 3. **Cocktail Mixology Card (5 Signature Recipes)**:
    - Professional cocktail specs with exact measurements (_Mango Passion Spritz, Strawberry Mojito, Elderflower Pear Fizz, Peach Bellini, Cherry Bourbon Smash_).
-4. **B2B HoReCa Portal** (`/dlya-zakladiv`):
+4. **B2B HoReCa Portal** (`/for-business`):
    - Wholesale partnership options for coffee shops, bars, restaurants, and catering.
    - Lead generation form for wholesale price lists and free tasting samples.
-5. **Full Shopping Cart & Checkout** (`/koshyk`):
+5. **Full Shopping Cart & Checkout** (`/cart`):
    - Cart persistence via `localStorage`.
    - Quantity controls and item removal.
    - Delivery selector: local delivery across Vinnytsia or Nova Poshta parcel lockers/branches.
